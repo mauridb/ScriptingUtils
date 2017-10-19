@@ -1,0 +1,2 @@
+ID,COMMAND,CATEGORY,SUBCATEGORY,DESCRIPTION,LEARN_DATE
+bfc39a06-b51f-11e7-ba75-80fa5b326256,.strftime(),Python,datetime format,a method that allow to store datetime format without milliseconds.,2017-10-20 00:49:22
