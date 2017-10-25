@@ -1,2 +1,8 @@
 ID,COMMAND,CATEGORY,SUBCATEGORY,DESCRIPTION,LEARN_DATE
-bfc39a06-b51f-11e7-ba75-80fa5b326256,.strftime(),Python,datetime format,a method that allow to store datetime format without milliseconds.,2017-10-20 00:49:22
+bfc39a06-b51f-11e7-ba75-80fa5b326256,.strftime(),PYTHON,datetime format,a method that allow to store datetime format without milliseconds.,2017-10-20 00:49:22
+5c5b45b2-b5c5-11e7-9f05-80fa5b326256,docker inspect <idContainer>,DOCKER,docker cli,command to retrieve all info of container,2017-10-20 20:34:52
+b5d05628-b5c5-11e7-9f05-80fa5b326256,docker images,DOCKER,docker cli,listing all of your images,2017-10-20 20:37:22
+2c745694-b5c6-11e7-9f05-80fa5b326256,ps fax | grep cassandra,BASH,cli,find all running process with 'cassandra' as pattern,2017-10-20 20:40:41
+21a5819a-b5c9-11e7-9f05-80fa5b326256,git stash,VCS,git cli,to store a piece of code,2017-10-20 21:01:51
+cdfacb4e-b5c9-11e7-9f05-80fa5b326256,git stash save 'message',VCS,git cli,store a piece of code with message to recognize,2017-10-20 21:06:40
+92e7d47e-b5ca-11e7-9f05-80fa5b326256,cqlsh -u <user> -p <password> localhost,CASSANDRA,cassandra cli,access to cassandra bash by user and by password,2017-10-20 21:12:11
