@@ -6,3 +6,21 @@ b5d05628-b5c5-11e7-9f05-80fa5b326256,docker images,DOCKER,docker cli,listing all
 21a5819a-b5c9-11e7-9f05-80fa5b326256,git stash,VCS,git cli,to store a piece of code,2017-10-20 21:01:51
 cdfacb4e-b5c9-11e7-9f05-80fa5b326256,git stash save 'message',VCS,git cli,store a piece of code with message to recognize,2017-10-20 21:06:40
 92e7d47e-b5ca-11e7-9f05-80fa5b326256,cqlsh -u <user> -p <password> localhost,CASSANDRA,cassandra cli,access to cassandra bash by user and by password,2017-10-20 21:12:11
+24238416-ba1b-11e7-87bd-80fa5b326256,git stash list,VCS,git cli,list of any piece of code stashed,2017-10-26 08:58:59
+c8d58c5c-ba1b-11e7-87bd-80fa5b326256,Entry.objects.all(),DJANGO,Queryset,"list every entry model of the database, is equal to select * from",2017-10-26 09:03:35
+fbc186ae-bbc7-11e7-a762-b88a60dad612,tail -f <file_name>,BASH,cli,It's a command that show live edits and follow inserts into file name that you passed as param,2017-10-28 12:08:45
+24db3d3a-bbe8-11e7-a762-b88a60dad612,:set autoindent,EDITOR,vim utility,set autoindentation for a script inside vim editor,2017-10-28 15:58:58
+b05e712a-bc0f-11e7-a762-b88a60dad612,os.system('<bashcommand>'),PYTHON,os,"it's a builtin method used from os python module that allow to launch a bash command as a bash command, USEFULL when you want to interact with the bash console working with a python script.",2017-10-28 20:42:02
+267b03be-bc10-11e7-a762-b88a60dad612,sys.argv[],PYTHON,sys,it's a utils that list in array every params passed after python. most important,2017-10-28 20:45:20
+206871d2-bc24-11e7-a762-b88a60dad612,unzip -d <destination_path> file.zip,BASH,cli,unzip file.zip passing -d param with a destination path name very usefull,2017-10-28 23:08:20
+d5ac573e-bc24-11e7-a762-b88a60dad612,"shutil.make_archive(output_file, compressedExtension, path)",PYTHON,shutil,advanced manipulation to create a archive file,2017-10-28 23:13:24
+1e63b5e4-bcc5-11e7-83e0-b88a60dad612,sudo -u postgres psql postgres,DATABASE,postgresql,Easy access to postgres command line ,2017-10-29 17:20:46
+31461ed6-bcc5-11e7-83e0-b88a60dad612,\l,DATABASE,postgres,list all database in postgres,2017-10-29 17:21:17
+71d5b20e-bcc5-11e7-83e0-b88a60dad612,\c,DATABASE,postgres,Connect to a specific database,2017-10-29 17:23:06
+8e51fbc2-bcc5-11e7-83e0-b88a60dad612,\dt,DATABASE,postgres,list all tables of the current database,2017-10-29 17:23:54
+8958dd80-bcdd-11e7-83e0-b88a60dad612,os.chdir(),PYTHON,os,python bash interact with console used to change directory,2017-10-29 20:15:33
+cee64310-bcdd-11e7-83e0-b88a60dad612,string.split('/'),PYTHON,built-in method,used to split a string in a list using passed pattern char..,2017-10-29 20:17:30
+0b4acc68-bcde-11e7-83e0-b88a60dad612,"-".join([<list>])",PYTHON,built-in method,used to merge passed list in a string using starter path declared..,2017-10-29 20:19:11
+f79f1840-bcf1-11e7-83e0-b88a60dad612,sudo service mongod start,DATABASE,mongodb,bash command to active mongodb,2017-10-29 22:41:48
+3fc16120-bcf5-11e7-83e0-b88a60dad612,cd /etc/apt/source.list.d,LINUX OS,apt-get update repos,place where stored ign repos in OS linux system,2017-10-29 23:05:18
+bbac5d1a-bcf7-11e7-83e0-b88a60dad612,DEBUG=* mongodb-compass,DATABASE,MONGODB GUI,command to launch gui of mongodb,2017-10-29 23:23:04
