@@ -24,3 +24,11 @@ cee64310-bcdd-11e7-83e0-b88a60dad612,string.split('/'),PYTHON,built-in method,us
 f79f1840-bcf1-11e7-83e0-b88a60dad612,sudo service mongod start,DATABASE,mongodb,bash command to active mongodb,2017-10-29 22:41:48
 3fc16120-bcf5-11e7-83e0-b88a60dad612,cd /etc/apt/source.list.d,LINUX OS,apt-get update repos,place where stored ign repos in OS linux system,2017-10-29 23:05:18
 bbac5d1a-bcf7-11e7-83e0-b88a60dad612,DEBUG=* mongodb-compass,DATABASE,MONGODB GUI,command to launch gui of mongodb,2017-10-29 23:23:04
+aa713d6c-bd7a-11e7-ad2c-b88a60dad612,rails routes,RUBY ON RAILS,rails cli,list all of the routes of your server,2017-10-30 15:00:20
+d047581e-bd7a-11e7-ad2c-b88a60dad612,rails server,RUBY ON RAILS,rails cli,command to run server at default port :3000,2017-10-30 15:01:23
+b3581a26-bd80-11e7-ad2c-b88a60dad612,rails db:migrate,RUBY ON RAILS,create database model,create database,2017-10-30 15:43:32
+535b3016-bdb9-11e7-ad2c-b88a60dad612,tree <dirname>,BASH,cli,show tree of a folder,2017-10-30 22:28:52
+34e30f66-bdc1-11e7-ad2c-b88a60dad612,django-admin startproject <myproject> .,DJANGO,django cli,exec to start project '.' it's really really IMPORTANT!,2017-10-30 23:25:17
+5b14f852-bdc1-11e7-ad2c-b88a60dad612,virtualenv venv,PYTHON,virtual environment,way to create an independent virtualenvironment start from zero,2017-10-30 23:26:21
+d4377e52-bdc2-11e7-ad2c-b88a60dad612,python manage.py migrate,DJANGO,django cli,command to create a database,2017-10-30 23:36:53
+e79e8a30-bdc2-11e7-ad2c-b88a60dad612,python manage.py createsuperuser,DJANGO,django cli,command to create a superuser,2017-10-30 23:37:26
