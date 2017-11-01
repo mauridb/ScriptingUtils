@@ -2,7 +2,6 @@ from __future__ import with_statement
 from fabric.api import *
 
 
-
 # fab prerelease_master:'BRANCH-MASTER-MESSAGE'
 def prerelease_master(msg):
 	local('git add .')
