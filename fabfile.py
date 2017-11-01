@@ -6,7 +6,6 @@ from fabric.api import *
 def prerelease_master(msg):
 	local('git add .')
 	local('git commit -m "{}"'.format(msg))
-	local('deactivate')
 	local('git push origin master')
 
 # fab release:'RELEASE-tag version'
