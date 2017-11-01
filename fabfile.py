@@ -5,7 +5,6 @@ from fabric.api import *
 
 # fab prerelease_master:'BRANCH-MASTER-MESSAGE'
 def prerelease_master(msg):
-	local('git checkout master')
 	local('git add .')
 	local('git commit -m "{}"'.format(msg))
 	local('git push origin master')
