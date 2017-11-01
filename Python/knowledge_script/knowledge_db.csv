@@ -32,3 +32,5 @@ b3581a26-bd80-11e7-ad2c-b88a60dad612,rails db:migrate,RUBY ON RAILS,create datab
 5b14f852-bdc1-11e7-ad2c-b88a60dad612,virtualenv venv,PYTHON,virtual environment,way to create an independent virtualenvironment start from zero,2017-10-30 23:26:21
 d4377e52-bdc2-11e7-ad2c-b88a60dad612,python manage.py migrate,DJANGO,django cli,command to create a database,2017-10-30 23:36:53
 e79e8a30-bdc2-11e7-ad2c-b88a60dad612,python manage.py createsuperuser,DJANGO,django cli,command to create a superuser,2017-10-30 23:37:26
+3a705bec-be79-11e7-abac-b88a60dad612,"random.uniform(2,90)",PYTHON,random built-in module,this method create a random number float/integer beetwen start/end,2017-10-31 21:22:33
+702200ba-be79-11e7-abac-b88a60dad612,round(),PYTHON,built-in method,"used to take only wanted decimal number ex. round(34.4567,3) return only 3 decimal number",2017-10-31 21:24:03
