@@ -50,3 +50,5 @@ f6168d6a-c6eb-11e7-a80a-b88a60dad612,{{ project.description | truncatewords:5 }}
 e9001d7a-c6f1-11e7-a80a-b88a60dad612,"parseInt(""10"")",JAVASCRIPT,built-in method,force string to int value,2017-11-11 16:06:35
 84a6d4ac-c6f8-11e7-a80a-b88a60dad612,.removeClass('btn-primary'),JQUERY,play with class name,remove class name from element object,2017-11-11 16:53:53
 a4799c92-c6f8-11e7-a80a-b88a60dad612,.addClass('btn-danger'),JQUERY,play with class name,add class name to element object,2017-11-11 16:54:47
+c339e0a8-c700-11e7-a80a-b88a60dad612,"{% for project in projects|slice:"":3"" %}",DJANGO,built-in template method,"|slice:"":3"" takes the first 3 elem of the list",2017-11-11 17:52:54
+e7e87b9e-c700-11e7-a80a-b88a60dad612,{% if forloop.first %},DJANGO,if statement,is True if this is the first time of the loop,2017-11-11 17:53:56
