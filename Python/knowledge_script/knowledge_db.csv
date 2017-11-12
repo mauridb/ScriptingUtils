@@ -52,3 +52,6 @@ e9001d7a-c6f1-11e7-a80a-b88a60dad612,"parseInt(""10"")",JAVASCRIPT,built-in meth
 a4799c92-c6f8-11e7-a80a-b88a60dad612,.addClass('btn-danger'),JQUERY,play with class name,add class name to element object,2017-11-11 16:54:47
 c339e0a8-c700-11e7-a80a-b88a60dad612,"{% for project in projects|slice:"":3"" %}",DJANGO,built-in template method,"|slice:"":3"" takes the first 3 elem of the list",2017-11-11 17:52:54
 e7e87b9e-c700-11e7-a80a-b88a60dad612,{% if forloop.first %},DJANGO,if statement,is True if this is the first time of the loop,2017-11-11 17:53:56
+678bb9bc-c70e-11e7-a80a-b88a60dad612,"$.get( ""api/v1/projects"", function( data ) {});",JQUERY,get ajax request,get request using javascript ajax system,2017-11-11 19:30:33
+3e8fa8b6-c7bd-11e7-a80a-b88a60dad612,import threading,PYTHON,built-in lib,lib to multithreading very usefull,2017-11-12 16:22:07
+74e8c78a-c7bd-11e7-a80a-b88a60dad612,import requests,PYTHON,third lib python,"pip install requests, request.get(url_path) to make a get request and take a response",2017-11-12 16:23:38
