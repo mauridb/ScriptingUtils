@@ -56,3 +56,8 @@ e7e87b9e-c700-11e7-a80a-b88a60dad612,{% if forloop.first %},DJANGO,if statement,
 3e8fa8b6-c7bd-11e7-a80a-b88a60dad612,import threading,PYTHON,built-in lib,lib to multithreading very usefull,2017-11-12 16:22:07
 74e8c78a-c7bd-11e7-a80a-b88a60dad612,import requests,PYTHON,third lib python,"pip install requests, request.get(url_path) to make a get request and take a response",2017-11-12 16:23:38
 bd68fc46-c7bd-11e7-a80a-b88a60dad612,time.sleep(int),PYTHON,built-in module,built-in method to wait param passed seconds,2017-11-12 16:25:39
+2c645d70-c7c3-11e7-a80a-b88a60dad612,select pg_database_size(<name_database>');,POSTGRESQL,postgres cli method,method to retrieve the size of the database,2017-11-12 17:04:33
+3cea3656-c7c8-11e7-a80a-b88a60dad612,mkdir test_Deploy_$(date +'%Y-%m-%d'),BASH,bash cli,$(date +'formatdate') useful to create a folder with today date,2017-11-12 17:40:48
+6ac167ce-c7ce-11e7-a80a-b88a60dad612,screen,BASH,bash cli command,"useful to open a new window to detatch after wit ""ctrl-a""",2017-11-12 18:25:02
+83eae1f8-c7ce-11e7-a80a-b88a60dad612,screen -r,BASH,bash cli command,to reattach in  a shell session,2017-11-12 18:25:44
+a86f13be-c995-11e7-9bc9-b88a60dad612,myList[-1],PYTHON,slicing array,use to bind the last elem of an array list,2017-11-15 00:43:47
