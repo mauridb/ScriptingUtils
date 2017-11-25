@@ -61,3 +61,14 @@ bd68fc46-c7bd-11e7-a80a-b88a60dad612,time.sleep(int),PYTHON,built-in module,buil
 6ac167ce-c7ce-11e7-a80a-b88a60dad612,screen,BASH,bash cli command,"useful to open a new window to detatch after wit ""ctrl-a""",2017-11-12 18:25:02
 83eae1f8-c7ce-11e7-a80a-b88a60dad612,screen -r,BASH,bash cli command,to reattach in  a shell session,2017-11-12 18:25:44
 a86f13be-c995-11e7-9bc9-b88a60dad612,myList[-1],PYTHON,slicing array,use to bind the last elem of an array list,2017-11-15 00:43:47
+b64a5206-d1c3-11e7-851d-b88a60dad612,"db.articles.insert({title:""hello world""})",MONGODB,insert in mongo,syntax to insert data in mongo,2017-11-25 10:33:36
+dec757b6-d1c7-11e7-851d-b88a60dad612,http://nodejs.org/api/,NODEJS,docs about core module,a reference to discover how work node core modules,2017-11-25 11:03:22
+007379b2-d1c8-11e7-851d-b88a60dad612,require('fs'),NODEJS,nodejs core module,module to read a file ,2017-11-25 11:04:18
+3bba5aea-d1c8-11e7-851d-b88a60dad612,"fs.readFile('/path/to/file/', 'utf8', function(err, data){};",NODEJS,core method ,read a file method of nodejs,2017-11-25 11:05:58
+93cb8af0-d1ce-11e7-851d-b88a60dad612,require('http');,NODEJS,core node module,core module to create a web server,2017-11-25 11:51:23
+94f4b984-d1dc-11e7-851d-b88a60dad612,$ export NODE_ENV=development,BASH,node environment setting,to set Unix-based environment in bash process,2017-11-25 13:31:38
+52a618f0-d1e3-11e7-851d-b88a60dad612,> db.posts.find({title:/mongo/}),MONGODB,query database,query to retrieve each post documents that contain 'mongo' inside title field,2017-11-25 14:19:53
+f585a5b8-d1e3-11e7-851d-b88a60dad612,> db.posts.find({commentsCount: {$gt:10}});,MONGODB,query database,to find grater integer parama passed ,2017-11-25 14:24:26
+a3477b30-d1e5-11e7-851d-b88a60dad612,db.posts.drop(),MONGODB,mongo cli,query to drop  a specific collection,2017-11-25 14:36:27
+65c35e36-d1e6-11e7-851d-b88a60dad612,"> db.posts.find({ ""user"": ""alice"" })",MONGODB,mongo cli,query filter by user,2017-11-25 14:41:53
+bb086d1e-d1e6-11e7-851d-b88a60dad612,"> db.posts.find({user: {$in: ['bob', 'alice']}})",MONGODB,mongo cli,query that retrieve all collection of user include an array of passed user,2017-11-25 14:44:16

@@ -1,3 +1,4 @@
 Python/CSVgenLatLng/data/
 fabReleaseEnv/
 *.pyc
+venv
