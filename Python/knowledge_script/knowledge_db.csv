@@ -72,3 +72,5 @@ f585a5b8-d1e3-11e7-851d-b88a60dad612,> db.posts.find({commentsCount: {$gt:10}});
 a3477b30-d1e5-11e7-851d-b88a60dad612,db.posts.drop(),MONGODB,mongo cli,query to drop  a specific collection,2017-11-25 14:36:27
 65c35e36-d1e6-11e7-851d-b88a60dad612,"> db.posts.find({ ""user"": ""alice"" })",MONGODB,mongo cli,query filter by user,2017-11-25 14:41:53
 bb086d1e-d1e6-11e7-851d-b88a60dad612,"> db.posts.find({user: {$in: ['bob', 'alice']}})",MONGODB,mongo cli,query that retrieve all collection of user include an array of passed user,2017-11-25 14:44:16
+c568df70-d1fd-11e7-851d-b88a60dad612,"curl -X PUT -H ""Content-Type: application/json"" -d '{""last_name"": ""CACCAAAAAAAAAAA""}' localhost:3000/users/5a198be1f061264ddfb18444",BASH,cli commands,curl command to make a PUT request to specific url,2017-11-25 17:29:12
+6f5637e4-d1fe-11e7-851d-b88a60dad612,curl -X DELETE localhost:3000/users/5a198be1f061264ddfb18444,BASH,cli command,curl DELETE example request,2017-11-25 17:33:57
