@@ -85,3 +85,14 @@ a630b1a2-d5e3-11e7-be05-605718ec562b,docker run -p 27017:27017 -p 28017:28017 mo
 dbfc9ef8-d5ee-11e7-be05-605718ec562b,docker stop 29edb953f90c,DOCKER,docker cli,docker command to stop running container,2017-11-30 17:52:32
 d01a09ca-d5f0-11e7-be05-605718ec562b,docker run -it --detach --name=container1 myimage,DOCKER,docker cli,run a container but in detach mode ,2017-11-30 18:06:31
 0fd224e4-d5f1-11e7-be05-605718ec562b,docker attach container1,DOCKER,docker cli,enter in a shell inside docker image and allow you to make what ever you wanna make in a shell,2017-11-30 18:08:18
+3e0a9336-d67e-11e7-a2ae-605718ec562b,$ docker build -t sample-web-app:1.0 .,DOCKER,docker cli,command to build a docker image using a tag with column and the path '.',2017-12-01 10:58:55
+6c8f5710-d687-11e7-a2ae-605718ec562b,ls -R /directory/folder,BASH,bash cli,recursive list of every directory files,2017-12-01 12:04:38
+90d1c914-d687-11e7-a2ae-605718ec562b,$ docker run my-docker-image ls /myfolder,DOCKER,docker cli,docker command to execute a bash command inside docker image,2017-12-01 12:05:39
+b52f98b4-d68b-11e7-a2ae-605718ec562b,$ chown myuser /folder,BASH,bash cli,chown stand for change owner to passed user at passed folder,2017-12-01 12:35:18
+0c3a43a4-d69e-11e7-a2ae-605718ec562b,docker login,DOCKER,docker cli,command to log inside docker registry,2017-12-01 14:46:35
+1c1d6292-d69e-11e7-a2ae-605718ec562b,docker push my-image,DOCKER,docker cli,docker command to push my image inside a repository,2017-12-01 14:47:02
+6899967c-d69e-11e7-a2ae-605718ec562b,$ docker tag mongodb mauridb/mongodb,DOCKER,docker cli,command to tag an existing image,2017-12-01 14:49:10
+9c59a290-d69e-11e7-a2ae-605718ec562b,docker pull mauridb/my-image-in-registry,DOCKER,docker cli,use to download an existing image inside docker registry,2017-12-01 14:50:37
+dcb8513e-d6ac-11e7-a2ae-605718ec562b,$ docker run -p 8080:80 -d node-js-app,DOCKER,docker cli,commands that allow you to run container in detach mode and run other commands,2017-12-01 16:32:38
+48606d22-d6ad-11e7-a2ae-605718ec562b,$ docker logs id_container,DOCKER,docker cli,show info about specific container,2017-12-01 16:35:39
+9e5439b6-d6ad-11e7-a2ae-605718ec562b,$ docker exec -it id_container /bin/bash,DOCKER,docker cli,to enter inside an indirect shell of running container,2017-12-01 16:38:03
