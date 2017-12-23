@@ -96,3 +96,10 @@ b52f98b4-d68b-11e7-a2ae-605718ec562b,$ chown myuser /folder,BASH,bash cli,chown 
 dcb8513e-d6ac-11e7-a2ae-605718ec562b,$ docker run -p 8080:80 -d node-js-app,DOCKER,docker cli,commands that allow you to run container in detach mode and run other commands,2017-12-01 16:32:38
 48606d22-d6ad-11e7-a2ae-605718ec562b,$ docker logs id_container,DOCKER,docker cli,show info about specific container,2017-12-01 16:35:39
 9e5439b6-d6ad-11e7-a2ae-605718ec562b,$ docker exec -it id_container /bin/bash,DOCKER,docker cli,to enter inside an indirect shell of running container,2017-12-01 16:38:03
+e3b60c10-d6ed-11e7-931b-b88a60dad612,$ docker ps -a,DOCKER,docker cli,command to show ALL processing status of containers,2017-12-02 00:18:07
+eab4578c-d752-11e7-a303-b88a60dad612,git clone -b https://github.com/mauridb/DJ-web-app.git,GIT,git cli,clone a specific project branch,2017-12-02 12:21:18
+9e23ecde-d7fc-11e7-89da-b88a60dad612,git tag v1.0,GIT,git cli,tag a version of your source code,2017-12-03 08:36:04
+d1fb9d72-d7fc-11e7-89da-b88a60dad612,git push origin --tags master,GIT ,git cli,to push tag in remote repository at branch master,2017-12-03 08:37:31
+506223ae-d80f-11e7-89da-b88a60dad612,$ kill process_id,BASH,bash cli,kill process running,2017-12-03 10:49:54
+5ce85a52-d810-11e7-89da-b88a60dad612,$ docker exec -it NAME_CONTAINER bash,DOCKER,docker cli,to enter inside a bash container,2017-12-03 10:57:24
+3da81cde-db4b-11e7-9e16-b88a60dad612,$ docker rmi -f 2d0638b3b817,DOCKER,docker cli,to force delete a docker image,2017-12-07 13:36:26
