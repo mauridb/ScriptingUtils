@@ -103,3 +103,4 @@ d1fb9d72-d7fc-11e7-89da-b88a60dad612,git push origin --tags master,GIT ,git cli,
 506223ae-d80f-11e7-89da-b88a60dad612,$ kill process_id,BASH,bash cli,kill process running,2017-12-03 10:49:54
 5ce85a52-d810-11e7-89da-b88a60dad612,$ docker exec -it NAME_CONTAINER bash,DOCKER,docker cli,to enter inside a bash container,2017-12-03 10:57:24
 3da81cde-db4b-11e7-9e16-b88a60dad612,$ docker rmi -f 2d0638b3b817,DOCKER,docker cli,to force delete a docker image,2017-12-07 13:36:26
+68c6f8f8-e808-11e7-af8f-80fa5b326256,"datetime.strptime(var_date, '%Y-%m-%d %H:%M:%S')",PYTHON,parsing date method,"built-in method to parse string date into date type, amazing",2017-12-23 18:40:47
